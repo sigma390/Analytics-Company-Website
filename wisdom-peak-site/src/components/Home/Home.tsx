@@ -2,7 +2,7 @@
 
 
 import { useEffect } from 'react';
-import Clients, { ClientList } from '../Clients/Clients';
+import { ClientList } from '../Clients/Clients';
 import ClientsCard from '../Clients/ClientsCard';
 import Faq from '../FAQ/Faq';
 

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import  { useEffect } from 'react'
 import { serviceList } from '../Home/Home'
 import ServicesCard from './ServicesCard'
 

@@ -1,4 +1,3 @@
-import React from 'react';
 import ClientsCard, { ClientCardProps } from './ClientsCard';
 
 export const ClientList: ClientCardProps[] = [
