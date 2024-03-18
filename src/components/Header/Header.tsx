@@ -22,7 +22,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
             <Link to="/" className="flex items-center">
               {/* Add your logo here */}
               <img
-                src="/dist/assets/logo.png"
+                src="../../../Images/assets/logo.png"
                 className="hidden lg:block mr-3 h-16 hover:scale-110 duration-150 rounded-full"
                 alt="Logo"
               />
