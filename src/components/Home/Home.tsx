@@ -173,7 +173,7 @@ export const Home = () => {
      <div className="grid grid-cols-1  sm:grid-cols-2 gap-4 mt-16">
     <div className=" h-72 sm:h-auto flex justify-center translate-left">
       {/* Your image content goes here */}
-    <img src="/Images/assets/image1.jpg" alt="Your Image" className="h-96 w-96  object-cover hover:scale-110 hover:sm-scale-105 duration-300" />
+    <img src={"/Images/assets/image1.jpg"} alt="Your Image" className="h-96 w-96  object-cover hover:scale-110 hover:sm-scale-105 duration-300" />
     </div>
     <div className=" h-96 translate-right">
       {/* Your text content goes here */}
