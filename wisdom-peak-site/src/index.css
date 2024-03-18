@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image-container {
+    overflow: hidden; /* Hide overflow to clip the image */
+  }
+  .translate-left {
+    animation: translateLeft 1s ease-out; /* Animation for translating from left */
+  }
+  @keyframes translateLeft {
+    from {
+      transform: translateX(-50%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  .translate-right {
+    animation: slideRight 1s ease-out; /* Animation for sliding from right */
+  }
+  
+  @keyframes slideRight {
+    from {
+      transform: translateX(50%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+  /* Add this CSS to your existing CSS file or create a new one */
+@media (max-width: 640px) {
+  .grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .h-72,
+  .h-96 {
+    height: auto;
+  }
+
+  .mt-16 {
+    margin-top: 1rem;
+  }
+
+  .ml-36,
+  .mr-36 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  .p-4 {
+    padding: 1rem;
+  }
+
+  .text-4xl {
+    font-size: 1.5rem;
+  }
+
+  .text-6xl {
+    font-size: 2rem;
+  }
+
+  /* Add more responsive styles as needed */
+}
+
+
+.placeholder-top-left::placeholder {
+  text-align: left; /* Align the placeholder text to the left */
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 8px; /* Adjust padding as needed */
+}
+
+
+#tel {
+  padding-left: 10px; /* Adjust padding-left to match placeholder padding */
+}
+
+/* Style for the placeholder */
+#tel::placeholder {
+  text-align: left; /* Align the placeholder text to the left */
+  position: absolute;
+  top: 0;
+  left: 10px; /* Adjust left position to match input padding-left */
+  padding: 8px;
+}
