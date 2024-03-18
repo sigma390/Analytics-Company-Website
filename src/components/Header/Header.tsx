@@ -2,7 +2,21 @@ import  { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
 import { FaBars } from 'react-icons/fa';
 
+
+//image imports
+import logo from '/src/assets/logo.png'
+
+
+
+
+
+
 export const Header = () => {
+
+
+
+
+
 
 
 const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -22,7 +36,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
             <Link to="/" className="flex items-center">
               {/* Add your logo here */}
               <img
-                src="../../../Images/assets/logo.png"
+                src={logo}
                 className="hidden lg:block mr-3 h-16 hover:scale-110 duration-150 rounded-full"
                 alt="Logo"
               />
