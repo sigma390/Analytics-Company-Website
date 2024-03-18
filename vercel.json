@@ -12,6 +12,6 @@
     ],
     "env": {
       "MY_ENV_VAR": "value"
-    },
-    "files": ["src/assets"]
+    }
+    
   }
