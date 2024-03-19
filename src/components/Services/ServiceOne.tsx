@@ -2,6 +2,10 @@
 import { useEffect } from 'react';
 import { Link, useParams } from 'react-router-dom';
 
+
+import one from "/src/assets/dataEn.jpg"
+
+
 const ServiceOne = () => {
   let { id } = useParams(); // Assuming you're using react-router for routing
 
@@ -17,7 +21,7 @@ const ServiceOne = () => {
     <div className="grid grid-cols-1  sm:grid-cols-2 gap-4 m-5 sm:mt-16">
     <div className=" h-72 sm:h-auto flex justify-center translate-left">
       {/* Your image content goes here */}
-    <img src="/src/assets/dataEn.jpg" alt="Your Image" className="h-96 w-96   object-cover hover:scale-110 hover:sm-scale-105 duration-300" />
+    <img src={one} alt="Your Image" className="h-96 w-96   object-cover hover:scale-110 hover:sm-scale-105 duration-300" />
     </div>
     <div className=" h-96 sm: translate-right">
       {/* Your text content goes here */}
