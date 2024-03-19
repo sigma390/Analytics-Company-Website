@@ -42,7 +42,8 @@ import tool_twelve from '/src/assets/12.svg'
 import tool_thirteen from '/src/assets/13.svg'
 import tool_fourteen from '/src/assets/14.svg'
 import tool_fifteen from '/src/assets/15.svg'
-// import tool_sixteen from 
+// import logo 
+import logo from '/src/assets/logo.png'
 
 
 
@@ -265,7 +266,7 @@ export const Home = () => {
 
       <div className="md:col-span-1">
         <div className="ml-0 md:ml-36 mt-10 hover:scale-105 duration-300 translate-left">
-          <img className="shadow-lg shadow-slate-400" src='/src/assets/logo.png' alt="" />
+          <img className="shadow-lg shadow-slate-400" src={logo} alt="" />
         </div>
       </div>
 

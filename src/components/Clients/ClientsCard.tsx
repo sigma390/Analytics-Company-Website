@@ -1,7 +1,9 @@
 
 
 
+//client profile imgae 
 
+import dp from "/src/assets/account.png"
 
 export type ClientCardProps = {
   name:string,
@@ -22,7 +24,7 @@ const ClientsCard = ({name,company,note,location}:ClientCardProps) => {
     <div className="h-auto ml-8 mr-10 w-full flex-col justify-center items-center mt-10  border-2 shadow-lg shadow-slate-400 border-gray-300 rounded-3xl ">
       <div className='flex border-b-2 border-gray-200 h-auto sm:h-28  '>
         
-        <img src="/src/assets/account.png" className=' m-2 h-12 w-12' alt="" />
+        <img src={dp} className=' m-2 h-12 w-12' alt="" />
         
         <div>
         <h2 className='ml-2 mt-2  text-xl font-bold '>{name}</h2>
