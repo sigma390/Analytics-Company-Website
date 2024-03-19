@@ -290,7 +290,7 @@ export const Home = () => {
   </div>
 </div> */}
 
-<div className=' ml-10 sm:ml-28 mr-36 grid grid-cols-1 translate-left  sm:grid-cols-1 sm:mt-4 md:grid-cols-2 lg:grid-cols-4 gap-10 mt-16 '>
+<div className=' ml-5 mr-5  sm:ml-28 lg:mr-36 grid grid-cols-1 translate-left  sm:grid-cols-1 sm:mt-4 md:grid-cols-2 lg:grid-cols-4 gap-10 mt-16 '>
      {/* Render service cards using ServicesCard component */}
      {ClientList.map((client, index) => (
         <ClientsCard  key={index} {...client} />
