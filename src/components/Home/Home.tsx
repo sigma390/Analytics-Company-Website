@@ -25,8 +25,24 @@ import service_five from '/src/assets/cloud 2.png'
 import service_six from '/src/assets/Firefly Data Modernization Services 1467.jpg'
 
 
+//tools and tech imports
 
-
+import tool_one from  '/src/assets/1.jpg'
+import tool_two from  '/src/assets/2.jpg'
+import tool_three from '/src/assets/3.jpg'
+import tool_four from '/src/assets/4.png'
+import tool_five from '/src/assets/5.jpg'
+import tool_six from '/src/assets/6.png'
+import tool_seven from '/src/assets/7.jpg'
+import tool_eight from '/src/assets/8.jpeg'
+import tool_nine from '/src/assets/9.jpg'
+import tool_ten from '/src/assets/10.jpg'
+import tool_eleven from '/src/assets/11.svg'
+import tool_twelve from '/src/assets/12.svg'
+import tool_thirteen from '/src/assets/12.svg'
+import tool_fourteen from '/src/assets/12.svg'
+import tool_fifteen from '/src/assets/12.svg'
+// import tool_sixteen from 
 
 
 
@@ -94,78 +110,78 @@ type ToolsTechProps = {
 const techs:ToolsTechProps[] = [{
   id:1,
   
-    src:'/src/assets/1.jpg',
+    src:tool_one,
     alt:'/src/assets/1.jpg' 
 },
 {
   id:2,
-  src:'/src/assets/1.jpg',
+  src:tool_two,
   alt:'/src/assets/1.jpg'
 }, 
 {
   id:3,
-  src:'/src/assets/1.jpg',
-  alt:'/src/assets/1.jpg'
+  src:tool_three,
+  alt:tool_three
 }, 
 {
   id:4,
-  src:'/src/assets/1.jpg',
-  alt:'/src/assets/1.jpg'
+  src:tool_four,
+  alt:tool_four
 }, 
 {
   id:5,
-  src:'/src/assets/1.jpg',
-  alt:'/src/assets/1.jpg'
+  src:tool_five,
+  alt:tool_five
 },{
 id:6,
   
-src:'/src/assets/1.jpg',
-alt:'/src/assets/1.jpg'
+src:tool_six,
+alt:tool_six
 },
 {
 id:7,
-src:'/src/assets/1.jpg',
-alt:'/src/assets/1.jpg'
+src:tool_seven,
+alt:tool_seven
 }, 
 {
 id:8,
-src:'/src/assets/1.jpg',
-alt:'/src/assets/1.jpg'
+src:tool_eight,
+alt:tool_eight
 }, 
 {
 id:9,
-src:'/src/assets/1.jpg',
-alt:'/src/assets/1.jpg'
+src:tool_nine,
+alt:tool_nine
 }, 
 {
 id:10,
-src:'/src/assets/1.jpg',
-alt:'/src/assets/1.jpg'
+src:tool_ten,
+alt:tool_ten
 },
 {
   id:11, 
-  src:'/src/assets/1.jpg',
-  alt:'/src/assets/1.jpg'
+  src:tool_eleven,
+  alt:tool_eleven
   },
   {
   id:12,
-  src:'/src/assets/1.jpg',
-  alt:'/src/assets/1.jpg'
+  src:tool_twelve,
+  alt:tool_twelve
   }, 
   {
   id:13,
-  src:'/src/assets/1.jpg',
-  alt:'/src/assets/1.jpg'
+  src:tool_thirteen,
+  alt:tool_thirteen
   }, 
   {
   id:14,
-  src:'/src/assets/1.jpg',
-  alt:'/src/assets/1.jpg'
+  src:tool_fourteen,
+  alt:tool_fourteen
   }, 
   {
   id:15,
-  src:'/src/assets/1.jpg',
-  alt:'/src/assets/1.jpg'
+  src:tool_fifteen,
+  alt:tool_fifteen
   },
 ]
 
