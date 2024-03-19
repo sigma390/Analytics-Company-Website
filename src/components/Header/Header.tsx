@@ -41,7 +41,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
               {/* Add your logo here */}
               <img
                 src={logo}
-                className="hidden lg:block mr-3 h-16 hover:scale-110 duration-150 rounded-full"
+                className="hidden sm:block md:block lg:block mr-3 h-16 hover:scale-110 duration-150 rounded-full"
                 alt="Logo"
               />
             </Link>
