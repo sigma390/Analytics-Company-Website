@@ -3,6 +3,10 @@ import { ClientList } from '../Clients/Clients'
 import ClientsCard from '../Clients/ClientsCard'
 import { Link } from 'react-router-dom'
 
+
+import abt from "/src/assets/dataEn.jpg"
+
+
 export const About = () => {
 
   useEffect(() => {
@@ -13,7 +17,7 @@ export const About = () => {
   return (
     <>
     <div className="bg-red-200 h-40 w-full flex flex-col items-center">
-  <img className='w-full h-full object-cover' src="/src/assets/about.jpg" alt="" />
+  <img className='w-full h-full object-cover' src={abt} alt="" />
   
 </div>
 <div className=" h-auto sm:h-24 bg-gray-300 mt-0 sm:mt-0 lg:mt-0 justify-center shadow-slate-500 shadow-lg">
