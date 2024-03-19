@@ -34,7 +34,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                 <div className="flex items-center">
             {/* Replace the logo with the menu bar icon */}
-            <button onClick={toggleMenu} className="  sm:hidden md:hidden lg:hidden">
+            <button onClick={toggleMenu} className="   lg:hidden">
               <FaBars className="text-black" />
             </button>
             <Link to="/" className="flex items-center">
@@ -47,8 +47,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
             </Link>
           </div>
 
-          <div className=" sm:hidden md:hidden  lg:hidden">
-            <h1 className="text-black font-semibold text-xl">
+          <div className="  lg:hidden">
+            <h1 className="text-black text-center font-semibold text-xl">
               Wisdom Peak Analytics
             </h1>
           </div>
@@ -69,8 +69,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
 
                     <div
                         className={`${
-              !isMenuOpen ? 'hidden sm:block md:block lg:block' : ''
-            } sm:flex md:flex lg:flex justify-between items-center w-full lg:w-auto lg:order-1`}
+              isMenuOpen ? 'block' : 'hidden'
+            } lg:flex justify-between items-center w-full lg:w-auto lg:order-1`}
             id="mobile-menu-2"
                     >
                       
