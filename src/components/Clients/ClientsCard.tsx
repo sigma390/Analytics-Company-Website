@@ -21,7 +21,7 @@ export type ClientCardProps = {
 
 const ClientsCard = ({name,company,note,location}:ClientCardProps) => {
   return (
-    <div className="h-auto ml-8 mr-10 w-full flex-col justify-center items-center mt-10  border-2 shadow-lg shadow-slate-400 border-gray-300 rounded-3xl ">
+    <div className="h-auto ml-2 mr-5 sm:mr-10 w-full flex-col justify-center items-center mt-10  border-2 shadow-lg shadow-slate-400 border-gray-300 rounded-3xl ">
       <div className='flex border-b-2 border-gray-200 h-auto sm:h-28  '>
         
         <img src={dp} className=' m-2 h-12 w-12' alt="" />
