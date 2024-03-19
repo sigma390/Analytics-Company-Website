@@ -34,14 +34,14 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                 <div className="flex items-center">
             {/* Replace the logo with the menu bar icon */}
-            <button onClick={toggleMenu} className="  sm:hidden md:hidden lg:hidden">
+            <button onClick={toggleMenu} className=" lg:hidden">
               <FaBars className="text-black" />
             </button>
             <Link to="/" className="flex items-center">
               {/* Add your logo here */}
               <img
                 src={logo}
-                className="hidden sm:block md:block lg:block mr-3 h-16 hover:scale-110 duration-150 rounded-full"
+                className="hidden sm:hidden md:hidden lg:block mr-3 h-16 hover:scale-110 duration-150 rounded-full"
                 alt="Logo"
               />
             </Link>
