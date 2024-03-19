@@ -34,14 +34,14 @@ import tool_four from '/src/assets/4.png'
 import tool_five from '/src/assets/5.jpg'
 import tool_six from '/src/assets/6.png'
 import tool_seven from '/src/assets/7.jpg'
-import tool_eight from '/src/assets/8.jpeg'
+import tool_eight from '/src/assets/8.svg'
 import tool_nine from '/src/assets/9.jpg'
 import tool_ten from '/src/assets/10.jpg'
 import tool_eleven from '/src/assets/11.svg'
 import tool_twelve from '/src/assets/12.svg'
-import tool_thirteen from '/src/assets/12.svg'
-import tool_fourteen from '/src/assets/12.svg'
-import tool_fifteen from '/src/assets/12.svg'
+import tool_thirteen from '/src/assets/13.svg'
+import tool_fourteen from '/src/assets/14.svg'
+import tool_fifteen from '/src/assets/15.svg'
 // import tool_sixteen from 
 
 
