@@ -21,6 +21,10 @@ export const Header = () => {
 
 const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+
+
+
+
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
@@ -41,6 +45,12 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                 alt="Logo"
               />
             </Link>
+          </div>
+
+          <div className="lg:hidden">
+            <h1 className="text-black font-bold text-xl">
+              Wisdom Peak Analytics
+            </h1>
           </div>
                     <div className="flex items-center lg:order-2">
                        
