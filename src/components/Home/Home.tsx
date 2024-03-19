@@ -15,7 +15,14 @@ import Tools from '../Tools/Tools';
 
 import homeImg from "/src/assets/image1.jpg"
 
+//serviceList Image
 
+import service_one from '/src/assets/dataEn.jpg'
+import service_two from '/src/assets/image1.jpg'
+import service_three from '/src/assets/Improve.jpg'
+import service_four from '/src/assets/down.jpg'
+import service_five from '/src/assets/cloud 2.png'
+import service_six from '/src/assets/Firefly Data Modernization Services 1467.jpg'
 
 
 
@@ -36,38 +43,38 @@ export const serviceList: ServicecardProps[] = [
   {
     id:1,
     name: 'Data Analytics & Engineering',
-    image: '/src/assets/dataEn.jpg',
+    image: service_one,
     description: "Data Analytics Services-Transforming raw data into actionable insights through advanced analytics and engineering solutions for informed decision-making."
   },
   // Add dummy data for other services
   {
     id:2,
     name: 'Artificial Intelligence Services',
-    image: '/src/assets/image1.jpg',
+    image: service_two,
     description: "Harnessing the power of Artificial Intelligence to deliver cutting-edge solutions, from machine learning applications to intelligent automation, tailored to meet diverse business needs. "
   },
   {
     id:3,
     name: 'Improve the use of data insights in decision-making',
-    image: '/src/assets/Improve.jpg',
+    image: service_three,
     description: "Elevating decision-making processes by enhancing the utilization of data insights, optimizing strategies, and fostering informed and impactful choices for business success.  "
   },
   {
     id:4,
     name: 'Data Platform Management Services',
-    image: '/src/assets/down.jpg',
+    image: service_four,
     description: "Data Management Services -Streamlining and optimizing data platform management to ensure efficiency, reliability, and security, empowering organizations to leverage their data infrastructure effectively. "
   },
   {
     id:5,
     name: 'Cloud Data Platform Management',
-    image: '/src/assets/cloud 2.png',
+    image: service_five,
     description: "Unlocking the full potential of cloud technology to drive innovation, scalability, and agility, delivering comprehensive cloud services tailored to your business objectives. "
   },
   {
     id:6,
     name: 'Data Modernization Services',
-    image: '/src/assets/Firefly Data Modernization Services 1467.jpg',
+    image: service_six,
     description: "Revolutionizing data ecosystems through comprehensive modernization services, enhancing agility, scalability, and performance for a data-driven and future-ready organization. "
   },
 
