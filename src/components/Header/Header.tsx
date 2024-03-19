@@ -63,6 +63,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
             } lg:flex justify-between items-center w-full lg:w-auto lg:order-1`}
             id="mobile-menu-2"
                     >
+                      <h1>Wisdom peak analytics</h1>
                         <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                             
                             {/* list items on Header */}
