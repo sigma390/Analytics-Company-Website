@@ -69,8 +69,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
 
                     <div
                         className={`${
-              isMenuOpen ? 'block' : 'hidden'
-            } sm:flex-row md:flex-row lg:flex justify-between items-center w-full lg:w-auto lg:order-1`}
+              !isMenuOpen ? 'hidden sm:block md:block lg:block' : ''
+            } sm:flex md:flex lg:flex justify-between items-center w-full lg:w-auto lg:order-1`}
             id="mobile-menu-2"
                     >
                       
