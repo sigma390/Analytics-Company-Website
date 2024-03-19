@@ -4,7 +4,7 @@ import ClientsCard from '../Clients/ClientsCard'
 import { Link } from 'react-router-dom'
 
 
-import abt from "/src/assets/dataEn.jpg"
+import abt from "/src/assets/about.jpg"
 
 
 export const About = () => {
