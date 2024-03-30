@@ -46,7 +46,7 @@ const router = createBrowserRouter(
     //Route path '/' Roote Compoent Render Karaycha
     <Route path ='/' element={<Layout/>}> 
         {/* //children routes */}
-        <Route path='/' element={<Home/>}/>
+        <Route path='' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/services' element={<Services/>}/>
         <Route path='/contact' element={<Contact/>}/>

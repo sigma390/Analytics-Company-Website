@@ -1,17 +1,19 @@
 import  { useEffect } from 'react'
 import { ClientList } from '../Clients/Clients'
 import ClientsCard from '../Clients/ClientsCard'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 
 import abt from "/src/assets/about.jpg"
 
 
-export const About = () => {
 
+export const About = () => {
+  const history = useNavigate();
   useEffect(() => {
     // Scroll to the top when the component mounts 
-  }, []); // Dependency array includes 
+    history('/home')
+  }, [history]); // Dependency array includes 
 
 
   return (
