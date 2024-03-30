@@ -12,7 +12,7 @@ export const About = () => {
   const history = useNavigate();
   useEffect(() => {
     // Scroll to the top when the component mounts 
-    history('/home')
+    history('/about')
   }, [history]); // Dependency array includes 
 
 
