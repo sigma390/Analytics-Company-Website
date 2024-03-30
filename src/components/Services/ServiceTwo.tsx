@@ -37,8 +37,8 @@ const ServiceTwo = () => {
     </div>
     
   </div>
-  <div className=' h-24 bg-gray-300 mt-10 justify-center shadow-slate-500 shadow-lg '>
-  <h2 className='text-center p-8 text-black text-3xl mt-10 font-bold translate-left '>Machine Learning Solutions</h2>
+  <div className=' h-10 sm:h-24 bg-gray-300 mt-10 justify-center shadow-slate-500 shadow-lg  '>
+  <h2 className='text-center p-2 sm:p-6   sm:text-xl mt-10 md:text-3xl lg:text-4xl text-black text-xl  font-bold translate-left '>Machine Learning Solutions</h2>
 
   </div>
   <div className="ml-4 md:ml-20 mr-4 md:mr-20 mt-4 md:mt-10 p-4 md:p-8">
@@ -69,8 +69,8 @@ const ServiceTwo = () => {
 {/*Cloud Data Storage Services Section starts here */}
 
 
-<div className=' h-24 bg-gray-300 mt-10 justify-center shadow-slate-500 shadow-lg '>
-  <h2 className='text-center p-8 text-black text-3xl mt-10 font-bold translate-left '>Natural Language Processing (NLP)</h2>
+<div className='h-10 sm:h-24 bg-gray-300 mt-10 justify-center shadow-slate-500 shadow-lg'>
+  <h2 className='text-center p-2 sm:p-6   sm:text-xl mt-10 md:text-3xl lg:text-4xl text-black text-xl  font-bold translate-left  '>Natural Language Processing (NLP)</h2>
 
   </div>
   <div className="ml-4 md:ml-20 mr-4 md:mr-20 mt-4 md:mt-10 p-4 md:p-8">
@@ -99,8 +99,8 @@ const ServiceTwo = () => {
   
 </div>
 
-<div className=' h-24 bg-gray-300 mt-10 justify-center shadow-slate-500 shadow-lg '>
-  <h2 className='text-center p-8 text-black text-3xl mt-10 font-bold translate-left '>Computer Vision Solutions</h2>
+<div className='h-10 sm:h-24 bg-gray-300 mt-10 justify-center shadow-slate-500 shadow-lg '>
+  <h2 className='text-center p-2 sm:p-6   sm:text-xl mt-10 md:text-3xl lg:text-4xl text-black text-xl  font-bold translate-left '>Computer Vision Solutions</h2>
 
 
   </div>

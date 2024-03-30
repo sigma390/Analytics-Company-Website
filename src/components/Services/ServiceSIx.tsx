@@ -36,71 +36,69 @@ const ServiceSIx = () => {
     </div>
     
   </div>
-  <div className=' h-24 bg-gray-300 mt-10 justify-center shadow-slate-500 shadow-lg '>
-  <h2 className='text-center p-8 text-black text-3xl mt-10 font-bold translate-left '>Machine Learning Solutions</h2>
+  <div className=' h-10 sm:h-24 bg-gray-300 mt-10 justify-center shadow-slate-500 shadow-lg '>
+  <h2 className='text-center p-2 sm:p-6   sm:text-xl mt-10 md:text-3xl lg:text-4xl text-black text-xl  font-bold translate-left '>Data Integration and Interoperability</h2>
 
   </div>
   <div className="ml-4 md:ml-20 mr-4 md:mr-20 mt-4 md:mt-10 p-4 md:p-8">
   {/* Custom Model Development: */}
   <div className="flex-col md:flex-row mb-4">
-    <h3 className="font-bold mr-2">Custom Model Development:</h3>
+    <h3 className="font-bold mr-2">Seamless Data Flow:</h3>
     <p className="text-sm md:text-base flex-grow">
-    Tailored machine learning models designed to address your unique business challenges.
+    Our solutions streamline data flow, enabling seamless communication and collaboration across
+     your organization for enhanced insights and decision-making.
     </p>
   </div>
   
   {/* Predictive Modeling:  */}
   <div className=" flex-col md:flex-row mb-4">
-    <h3 className="font-bold mr-2">Predictive Modeling: </h3>
+    <h3 className="font-bold mr-2">API Development: </h3>
     <p className="text-sm md:text-base flex-grow">
-    Leverage historical data to predict future trends and outcomes with accuracy.
+    Facilitate seamless data exchange and system integration with
+     our custom API development services.
     </p>
   </div>
   
-  {/* Model Deployment and Monitoring: */}
+  {/*Real-time Data Exchange: */}
   <div className=" flex-col md:flex-row">
-    <h3 className="font-bold mr-2">Model Deployment and Monitoring: </h3>
+    <h3 className="font-bold mr-2">Real-time Data Exchange: </h3>
     <p className="text-sm md:text-base flex-grow">
-    Seamless integration and ongoing monitoring to ensure optimal model performance.
+    Our real-time data exchange capabilities empower timely decision-making by providing instant access to accurate and synchronized 
+    data across all your systems and processes.
     </p>
   </div>
 </div>
 {/*Cloud Data Storage Services Section starts here */}
 
 
-<div className=' h-24 bg-gray-300 mt-10 justify-center shadow-slate-500 shadow-lg '>
-  <h2 className='text-center p-8 text-black text-3xl mt-10 font-bold translate-left '>Natural Language Processing (NLP)</h2>
+<div className=' h-10 sm:h-24 bg-gray-300 mt-10 justify-center shadow-slate-500 shadow-lg '>
+  <h2 className='text-center p-2 sm:p-6   sm:text-xl mt-10 md:text-3xl lg:text-4xl text-black text-xl  font-bold translate-left '>Data Virtualization</h2>
 
   </div>
   <div className="ml-4 md:ml-20 mr-4 md:mr-20 mt-4 md:mt-10 p-4 md:p-8">
-  {/*Text Analysis:   */}
+  {/*Unified Data Access:   */}
   <div className="flex-col md:flex-row mb-4">
-    <h3 className="font-bold mr-2">Text Analysis:  </h3>
+    <h3 className="font-bold mr-2">Unified Data Access:  </h3>
     <p className="text-sm md:text-base flex-grow">
-    Extract valuable insights from unstructured data, including sentiment analysis and content categorization.
+    Elevate your data accessibility with our virtualized layer,enabling unified access
+     to data through optimized unified data access solutions.
     </p>
   </div>
-  {/*Language Understanding:     */}
+  {/*Cost-Effective Infrastructure    */}
   <div className=" flex-col md:flex-row mb-4">
-    <h3 className="font-bold mr-2">Language Understanding: </h3>
+    <h3 className="font-bold mr-2">Cost-Effective Infrastructure: </h3>
     <p className="text-sm md:text-base flex-grow">
-    Develop applications that comprehend and respond to human language in a natural way.
+    We streamline operations and reduce expenses, enabling you to maximize the value of your infrastructure
+     without compromising on performance or scalability.
     </p>
   </div>
   
-  {/*Chatbot Implementation:    */}
-  <div className=" flex-col md:flex-row mb-4">
-    <h3 className="font-bold mr-2">Chatbot Implementation:  </h3>
-    <p className="text-sm md:text-base flex-grow">
-    Integrate intelligent chatbots for enhanced customer interactions and support.
-    </p>
-  </div>
+ 
   
 </div>
 
-<div className=' h-24 bg-gray-300 mt-10 justify-center shadow-slate-500 shadow-lg '>
-  <h2 className='text-center p-8 text-black text-3xl mt-10 font-bold translate-left '>Computer Vision Solutions</h2>
-
+<div className=' h-10 sm:h-24 bg-gray-300 mt-10 justify-center shadow-slate-500 shadow-lg '>
+  <h2 className='text-center p-2 sm:p-6   sm:text-xl mt-10 md:text-3xl lg:text-4xl text-black text-xl  font-bold translate-left '>Modern Data Architecture</h2>
 
   </div>
 
@@ -109,23 +107,28 @@ const ServiceSIx = () => {
 
    
   <div className="ml-4 md:ml-20 mr-4 md:mr-20 mt-4 md:mt-10 p-4 md:p-8">
-     {/*Image Recognition: */}
+     {/*Scalable Solutions: */}
      <div className=" flex-col md:flex-row">
-    <h3 className="font-bold mr-2">Image Recognition: </h3>
+    <h3 className="font-bold mr-2">Scalable Solutions: </h3>
     <p className="text-sm md:text-base flex-grow">
-    Identify and classify objects, patterns, and features within images and videos.
+    Future-proof your organization with our scalable data infrastructures, designed to
+     adapt to the evolving demands of your business growth.
     </p>
   </div>
-  {/*Object Detection and Tracking:  */}
+  {/*Cloud-Native Implementations:  */}
   <div className=" flex-col mt-2 md:flex-row">
-    <h3 className="font-bold mr-2">Object Detection and Tracking: </h3>
+    <h3 className="font-bold mr-2">Cloud-Native Implementations: </h3>
     <p className="text-sm md:text-base flex-grow">
-    Enable machines to detect and track objects in real-time, enhancing security and automation.</p>
-    {/*Cost-Effective Analytics:  */}
+    Unlock the power of cloud technology with our cloud-native implementations, creating flexible
+     and expandable data systems tailored to your needs.</p>
+    {/*Advanced Analytics Integration:  */}
   <div className=" flex-col mt-2 md:flex-row">
-    <h3 className="font-bold mr-2">Facial Recognition:  </h3>
+    <h3 className="font-bold mr-2">Advanced Analytics Integration:  </h3>
     <p className="text-sm md:text-base flex-grow">
-    Implement secure and efficient identity verification systems using facial recognition technology.</p>
+    Elevate your data insights with our seamless
+     integration of contemporary analytics tools, 
+     allowing you to gain valuable insights to drive informed 
+    decision-making and business innovation.</p>
   </div>
   </div>
 

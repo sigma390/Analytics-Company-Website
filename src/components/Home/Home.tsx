@@ -251,7 +251,7 @@ export const Home = () => {
 
   </div>
 
-  <div className='ml-36 mr-36 grid grid-cols-1 translate-left  sm:grid-cols-2 lg:grid-cols-5 gap-10 mt-16' >
+  <div className='ml-36 mr-36 grid grid-cols-3 translate-left  sm:grid-cols-2 md:grid-cols-5 lg:grid-cols-5 gap-10 mt-16' >
     {
       techs.map((tech)=>(
         <Tools key={tech.id} src={tech.src} alt={tech.alt}/>
