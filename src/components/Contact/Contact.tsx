@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import nodemailer from 'nodemailer';
+// import nodemailer from 'nodemailer';
 
 export default function Contact() {
     const users:any =[]; 
