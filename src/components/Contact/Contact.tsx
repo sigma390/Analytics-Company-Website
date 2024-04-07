@@ -1,16 +1,71 @@
 import { useEffect } from "react";
-
+import nodemailer from 'nodemailer';
 
 export default function Contact() {
-
+    const users:any =[]; 
     
   useEffect(() => {
     // Scroll to the top when the component mounts or when id changes
     window.scrollTo(0, 0);
   }, []); // Dependency array includes id so that scroll happens when id changes
 
+  async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault(); // Prevent default form submission behavior
 
+    const formData = new FormData(event.currentTarget); // Create FormData object from the form
+    const formDataObject: Record<string, string> = {}; // Object to store form data
 
+    // Loop through form data and store it in the object
+    formData.forEach((value, key) => {
+      formDataObject[key] = value.toString();
+      console.log(key);
+    });
+
+    // You can now access form data using formDataObject
+    console.log(formDataObject);
+
+    // Send the form data to the server or perform any other action here
+    let details = {
+        name: formDataObject.name,
+        email: formDataObject.email,
+        phone: formDataObject.tel,
+        message: formDataObject.text
+    }
+    users.push(details);
+    console.log(users);
+
+    // async function sendMail(){
+    //     const transporter = nodemailer.createTransport({
+    //         service: 'gmail',
+    //         auth: {
+    //           user: '', // Your Gmail address
+    //           pass: '' // Your Gmail password or app-specific password
+    //         }
+    //       });
+      
+    //       // Define email options
+    //       const mailOptions = {
+    //         from: 'test976673@gmail.com',
+    //         to: '390.ompatil@gmail.com', // Assuming username is the email address
+    //         subject: 'Contact Form Submission',
+    //         text: `Name: ${details.name}\nEmail: ${details.email}\nPhone: ${details.phone}\nMessage: ${details.message}`
+    //       };
+      
+    //       // Send email
+    //       try {
+    //         const info = await transporter.sendMail(mailOptions);
+    //         console.log('Email sent successfully:', info);
+    //         // Optionally, you can display a success message to the user
+    //       } catch (error) {
+    //         console.error('Error sending email:', error);
+    //         // Optionally, you can display an error message to the user
+    //       }
+    // }
+    // sendMail();
+
+    
+
+  }
 
     return (
         <div className="relative flex items-top justify-center min-h-[700px] bg-white sm:items-center sm:pt-0">
@@ -98,7 +153,7 @@ export default function Contact() {
                             </div>
                         </div>
 
-                        <form className="p-6 flex flex-col justify-center">
+                        <form className="p-6 flex flex-col justify-center" onSubmit={handleSubmit}>
                             <div className="flex flex-col">
                                 <label htmlFor="name" className="hidden">
                                     Full Name
